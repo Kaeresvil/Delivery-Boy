@@ -1,0 +1,139 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-family: fantasy;
+}
+
+.navBar{
+	display: flex;
+	padding: 25px 90px;
+
+}
+.selector{
+	display: flex;
+	padding: 25px 90px;
+
+}
+.imgbgck img{
+	 max-width:100%; 
+         height: auto; 
+
+}
+.logo img{
+	max-width:150%; 
+        height: 70px; 
+	position: absolute;
+	top: 8%;
+	left: 9%;
+	transform: translate(-50%,-50%);
+
+}
+
+.navLinks{
+	flex: 1;
+}
+.navLinks ul{
+	margin-left: 338px;
+	display: block;
+
+}
+.navLinks ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 3px 15px;
+
+
+}
+.navLinks ul a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 28px;
+
+}
+.navLinks ul li::after{
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: red;
+	display: block;
+	margin: auto;
+	transition: .5s;
+}
+.navLinks ul li:hover::after{
+	width: 100%;
+}
+.searchBox{
+	position: absolute;
+	top: 8%;
+	right: -9%;
+	transform: translate(-50%,-50%);
+}
+.searchBox input{
+	border: 2px solid red;
+	height: 35px;
+	width: 260px;
+	border-radius: 30px;
+	padding: 0px 10px;
+
+}
+
+.top {
+  position: absolute;
+  top: 20%;
+  left: 33%;
+  transform: translate(-50%, -50%);
+  color: gray;
+  text-decoration: none;
+  font: 18px Impact, fantasy;
+  font-weight: 100;
+
+} 
+
+
+.selector a{
+position: absolute;
+	bottom: -40%;
+	right: 80%;
+	transform: translate(-50%,-50%);
+
+}
+.selector a{
+	color: #fff;
+	text-decoration: inline;
+	font-size: 35px;
+
+}
+.message{
+position: absolute;
+	bottom: -40%;
+	left: 18%;
+ 	max-width:30%; 
+         height: auto;
+	transform: translate(-10%,-10%);
+}
+.selector1 a{
+position: absolute;
+	bottom: -40%;
+	left: 60%;
+	transform: translate(-50%,-50%);
+
+}
+.selector1 a{
+	color: #fff;
+	text-decoration: inline;
+	font-size: 35px;
+
+}
+.message1{
+position: absolute;
+	bottom: -36%;
+	left: 71%;
+ 	max-width:30%; 
+         height: auto;
+	transform: translate(-10%,-10%);
+}
+
+
